@@ -1,0 +1,9 @@
+
+dirdemo.pro.user
+*.o
+moc_mainwindow.cpp
+Makefile
+*.user
+moc_predefs.h
+ui_mainwindow.h
+dirdemo
