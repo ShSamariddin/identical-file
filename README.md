@@ -2,7 +2,7 @@ Identical File - Qt applications
 ====================================================
 Description
 -----------
-Developed a multi-threaded analogue of fdupes tool for searching duplicated files in the selected directory
+Developed an analogue of fdupes tool for searching duplicated files in the selected directory
 
 Install Qt 5 on Ubuntu
 ---------------------
