@@ -65,7 +65,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -126,12 +126,12 @@
   </action>
   <action name="actionFrom_smaller_to_bigge">
    <property name="text">
-    <string>From smaller to bigge</string>
+    <string>ascending</string>
    </property>
   </action>
   <action name="action_rom_bigger_to_smaller">
    <property name="text">
-    <string>From bigger to smaller</string>
+    <string>descending</string>
    </property>
   </action>
  </widget>
