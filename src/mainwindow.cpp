@@ -37,7 +37,7 @@ main_window::main_window(QWidget *parent)
     ui->actionAbout->setIcon(style.standardIcon(QCommonStyle::SP_DialogHelpButton));
     ui->actionFrom_smaller_to_bigge->setIcon(style.standardIcon(QCommonStyle::SP_ArrowDown));
     ui->action_rom_bigger_to_smaller->setIcon(style.standardIcon(QCommonStyle::SP_ArrowUp));
-    ui->treeWidget->setStyleSheet("background-color: rgb(0,0,0);");
+    ui->treeWidget->setStyleSheet("background-color: rgb(100,100,100);");
 
 
     connect(ui->treeWidget, SIGNAL(itemDoubleClicked(QTreeWidgetItem*, int)), this, SLOT(open_file(QTreeWidgetItem*, int))); // open file on double click
@@ -46,11 +46,6 @@ main_window::main_window(QWidget *parent)
     connect(ui->actionScan_Directory, &QAction::triggered, this, &main_window::select_directory);//chko mekna
     connect(ui->actionExit, &QAction::triggered, this, &QWidget::close);
     connect(ui->actionAbout, &QAction::triggered, this, &main_window::show_about_dialog);
-
-    QTreeWidgetItem* item =new QTreeWidgetItem();
-    item->setText(0, "Samar");
-    item->setText(1, "the best");
-    ui->treeWidget->addTopLevelItem(item);
 
 //    scan_directory(QDir::homePath());
 }

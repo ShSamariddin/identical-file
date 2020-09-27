@@ -1,9 +1,12 @@
 cd src
-qmake dirdemo.pro
+qmake identical-file.pro
 make
-./dirdemo
+./identical-file
 rm *.o
 rm moc_*
 rm ui_*
+rm identical-file
+rm .qmake.stash
+rm Makefile
 #xdg-open .
 
